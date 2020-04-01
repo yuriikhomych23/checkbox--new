@@ -39,3 +39,11 @@
     top: 300px;
     left: 400px;
 }
+
+.checkbox {
+    display: block;
+    flex-wrap: wrap;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+}

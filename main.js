@@ -12,11 +12,12 @@ btnAdd.addEventListener('click', function () {
         let label = document.createElement('label');
         let input = document.createElement('input');
         input.setAttribute('type', 'checkbox');
-        let para = document.createElement('p');
+        input.setAttribute('class', 'checkbox');
+        let span = document.createElement('span');
 
-        para.innerHTML += text.value;
+        span.innerHTML += text.value;
 
-        input.appendChild(para);
+        label.appendChild(span);
         label.appendChild(input);
 
         listTask.appendChild(label);
