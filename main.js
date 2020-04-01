@@ -17,8 +17,8 @@ btnAdd.addEventListener('click', function () {
 
         span.innerHTML += text.value;
 
-        label.appendChild(span);
         label.appendChild(input);
+        label.appendChild(span);
 
         listTask.appendChild(label);
         text.value = ''

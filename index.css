@@ -40,10 +40,12 @@
     left: 400px;
 }
 
-.checkbox {
-    display: block;
+
+.check {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 20px;
-    height: 20px;
-    font-size: 16px;
 }
