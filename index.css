@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* CONTAINER */
 
 .container {
     width: 60%;
@@ -15,24 +16,17 @@
     justify-content: space-around;
     
 }
-.line {
-        border-right: 12px solid black;
-}
 
 
 h2 {
     color: red;
     font-size: 30px;
 }
-#list{ 
-    margin-top: 30px;
-    width: 40%;
-    
-}
 
-.add {
+/* CLASS LIST */
+.list{ 
     margin-top: 30px;
-    width: 40%;
+    width: 40%; 
 }
 
 .list__task{
@@ -41,7 +35,40 @@ h2 {
     margin-top: 30px;
 }
 
-#btnAdd {
+.checkbox { 
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 20px;
+}
+
+
+
+/* LINE  */
+.line {
+        border-right: 12px solid black;
+}
+ 
+hr {
+    border: 2px solid black;
+    width: 295px;
+    border-radius: 5px;
+}
+
+
+
+
+/* CLASS ADD  */
+
+.add {
+    margin-top: 30px;
+    width: 40%;
+}
+
+.btnAdd {
     width: 120px;
     height: 45px;
     background-color: black;
@@ -53,24 +80,6 @@ h2 {
     border: 1px solid transparent;
 }
 
-.list {
-    display: table;
-}
-
-
-.modal {
-    width: 300px;
-    height: 50px;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-    display: none;
-    text-align: center;
-    border: 1px solid transparent;
-    align-items: center;
-}
-
-
 input[type=text] {
     border: 0px solid;
     outline: none;
@@ -79,10 +88,8 @@ input[type=text] {
     height: 30px;
 }
 
-hr {
-    border: 2px solid black;
-    width: 295px;
-    border-radius: 5px;
-}
+
+
+
 
 
