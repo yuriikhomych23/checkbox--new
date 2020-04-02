@@ -24,14 +24,25 @@ btnAdd.addEventListener('click', function () {
         text.value = ''
     } else {
         // modal window
-        listTask.classList.add('.modal');
+        addTask.classList.add('.modal');
         modal.style.display = 'block';
-        close.addEventListener('click', function() {
+        addTask.addEventListener('click', function() {
             modal.style.display = "none";
         })
     }
- 
+    for(let i = 0; i < listTask.children.length; i++) {
+    listTask.children[i].addEventListener('click', function() {
+        if (listTask.children.length <= 1) {
+            alert('Останній елемент неможливо видалити')
+        }
+        if(listTask) {
+            this.remove()
+        }
+    })
+}
 })
+
+
 
 
 

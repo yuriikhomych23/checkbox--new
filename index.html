@@ -10,18 +10,20 @@
 <body>
 
 <div class="container">
+   
 
     <div id="list">
         <h2>Список завдань</h2>
 
-        <form name="list__task">
+        <form name="list__task" class="list__task">
             <div class="check">
-                <label class="checkbox"><input type="checkbox"><span class="checkbox">HTML5</span></label>
+                <label><input type="checkbox"><span>HTML5</span></label>
             </div>
         </form>
 
     </div>
 
+ <div class="line"></div>
 
     <div class="add">
         <h2>Додати нове завдання</h2>
@@ -29,14 +31,17 @@
         <form name="add__task">
 
             <input type="text" name="text" id="text">
-            <input type="button" value="Додати завдання" name="btnAdd" id="btnAdd">
+            <hr>
+            <input type="button" value="Додати" name="btnAdd" id="btnAdd">
 
         </form>
+
+        <div class="modal">Пoле пусте</div>
+
     </div>
     
-    <div class="modal">ПОле пусте
-        <button class="close">close</button>
-    </div>
+    
+
 </div>
 
 
